@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    android:padding="45dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="210dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Logo Clínica Robles"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clínica Robles"
+        android:textColor="#004D00"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="12dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuidando tu salud desde hace 29 años"
+        android:textColor="#007700"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="24dp"
+        />
+
+    <!-- Tabla de Servicios -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:background="#CCFFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp">
+
+        <TableRow>
+            <TextView
+                android:text="Servicios"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#004D00"
+                android:padding="8dp"
+                android:layout_span="2"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="• Salud ocupacional"
+                android:textSize="16sp"
+                android:textColor="#004D00"
+                android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="• Laboratorio"
+                android:textSize="16sp"
+                android:textColor="#004D00"
+                android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="• Ecografía"
+                android:textSize="16sp"
+                android:textColor="#004D00"
+                android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="• Radiografía"
+                android:textSize="16sp"
+                android:textColor="#004D00"
+                android:padding="8dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="• Ambulancia"
+                android:textSize="16sp"
+                android:textColor="#004D00"
+                android:padding="8dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2E7D32"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

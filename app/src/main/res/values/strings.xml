@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppClinica</string>
+    <string name="icono_especialidad">Icono que representa la especialidad médica</string>
+
+</resources>
